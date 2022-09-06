@@ -1,0 +1,39 @@
+.search input {
+background: var(--color-border);
+color: gray;
+padding: 0.7rem 0rem;
+border-radius: 20px;
+}
+
+.search input[type='text'] {
+    padding-left: 2rem;
+    color: white;
+    
+}
+
+    .search {
+        display: inline-block;
+    position: relative;
+}
+
+.search .search__icon {
+    position: absolute;
+    top: 13%;
+    left: 3%;
+    font-size: 1.7rem;
+    color: gray;
+}
+
+@media (max-width: 1024px)
+{
+
+    .search input {
+        background: var(--color-border);
+        color: gray;
+        padding: 0.7rem 0;
+        padding-right: 4rem;
+        border-radius: 20px;
+        }
+
+}
+

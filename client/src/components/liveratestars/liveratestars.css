@@ -1,0 +1,54 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/font-awesome.css');
+
+.star__rating > input {
+    display: none;
+}
+
+.star__rating > label:before {
+    content: "\f005";
+    font-family: FontAwesome;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 3rem;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.star__rating > .half:before {
+    content: '\f089';
+    position: absolute;
+    cursor: pointer;
+}
+
+.star__rating > label {
+    color: #ddd;
+    float: right;
+    cursor: pointer;
+}
+
+.star__rating > input:checked ~ label, 
+.star__rating:not(:checked) > label:hover, 
+.star__rating:not(:checked) > label:hover ~ label {
+    color: orange;
+}
+
+.star__rating > input:checked + label:hover,
+.star__rating > input:checked ~ label:hover,
+.star__rating > label:hover ~ input:checked ~ label,
+.star__rating > input:checked ~ label:hover ~ label {
+    color: orange;
+}
+
+.star__rating {
+    float: left;
+}
+
+.star__container {
+    display: flex;
+    align-items: center;
+    margin: 3rem 3rem;
+}
+
+.star__container h4 {
+    margin-left: 2rem;
+}

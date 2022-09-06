@@ -1,0 +1,81 @@
+/* ========== Stars ========== */
+.rating__stars .rating__star.checked {
+    color: orange;
+}
+
+.rating__stars .rating__star{
+    color: gray;
+    font-size: 1.3rem;
+}
+
+/* ========== Stars END ========== */
+
+
+/* ========== Populars Banner ========== */
+
+.topanime__h1 {
+    font-size: 1.2em;
+    text-align: center;
+    padding: 1.5rem 0 0.1rem 0;
+    border-top: 2px solid var(--color-border);
+
+}
+
+.popularthisweek__banners {
+    margin-top: 1rem;
+}
+
+
+
+.popularthisweek__banner {
+    display: flex;
+    align-items: center;
+}
+
+.popularthisweek__banner {
+    margin: 1rem 0.5rem 0 1rem ;
+}
+.popularthisweek__banner img {
+    width: 100px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 15px;
+    opacity: 0.8;
+    box-shadow: 3px 3px 5px black;
+}
+
+.popularthisweek__banner .banner__text {
+    margin-left: 0.8rem;
+}
+
+.popularthisweek__banner .banner__text .banner__name{
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: white;
+}
+
+.popularthisweek__banner .banner__text .genres {
+    font-size: 0.7rem;
+    margin: 0.2rem 0;
+    color: gray;
+}
+
+/* ========== Populars Banner END ========== */
+
+/* ========== See More Button ========== */
+
+
+.popularthisweek .seemore__btn {
+    outline: none;
+    border: none;
+    padding: 0.7rem 4rem;
+    margin-left: 1.2rem;
+    background-color: var(--color-primary);
+    font-weight: 700;
+    font-size: 1rem;
+    color: var(--color-white);
+    border-radius: 10px;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    cursor: pointer;
+}

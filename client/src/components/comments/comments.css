@@ -1,0 +1,78 @@
+.chat {
+    
+    text-align: center;
+    border-right: 5px solid var(--color-border);
+    height: 100%;
+    width: 100%;
+}
+
+.chat h3  {
+    padding: 1rem 0 0.2rem 0;
+}
+
+.chat p {
+    font-size: 0.7rem;
+}
+
+.chat__container {
+    
+    max-height: 150px;
+    width: 100%;        
+    overflow-y: scroll;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.4rem 0;
+    /* border-top: 0.8px solid var(--color-border); */
+    border-bottom: 0.8px solid var(--color-border);
+}
+
+.chat__container::-webkit-scrollbar {
+    display: none;
+}
+
+
+.chat__container a {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.chat__container a .user-name {
+    margin: 0.3rem;
+    margin-bottom: 0rem;
+    font-size: 0.9rem;
+    color: var(--color-primary);
+}
+.chat__container img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+.chat__container .name {
+    color: var(--color-primary);
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.chat__container span {
+    font-size: 0.6rem;
+    padding: 0.2rem 0.6rem;
+}
+
+.chat__container .anime__title {
+    font-size: 0.8rem;
+    margin-bottom: 0.3rem;
+    text-align: center;
+}
+
+@media (max-width:1024px) {
+    .chat {
+        display: none;
+    }
+}

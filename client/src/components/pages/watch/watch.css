@@ -1,0 +1,309 @@
+.watchpage {
+    border-right: 2px solid var(--color-border) ;
+    
+}
+
+.watchpage__container {
+    position: relative;
+}
+
+.watchpage-wrap {
+    display: grid;
+    grid-template-columns: 15% 85%;
+    grid-auto-flow: column;
+}
+
+.watchpage__container .watchpage__header {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.watchpage__container .watchpage__header .header {
+    display: flex;
+    align-items: center;
+}
+.watchpage__container .search {
+    margin-top: 1.3rem;
+    margin-left: 4rem;
+}
+.watchpage__container .search input{
+    padding: 0.85rem 3rem;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-left: 5px solid var(--color-primary);
+}
+.watchpage__container .search .search__icon {
+    left: 7%;
+}
+
+.watchpage__container .title__name {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.8rem;
+    margin-left: 2rem;
+    margin-top: 1.5rem;
+    position: relative;
+}
+
+.watchpage__container .title__name span {
+    font-size: 1.2rem;
+    margin-left: 1rem;
+    color: var(--color-primary);
+}
+
+/* ========= About Title ======== */
+.watchpage__container .title {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-auto-flow: row;
+    width: 100%;
+    margin-top: 2rem;
+    
+}
+
+.watchpage__container .title img {
+    height: 100%;
+    max-width: 100%;
+    border-radius: 2%;
+    object-fit: cover;
+    margin: 0 auto;
+    box-shadow: 10px 10px 10px black;
+}
+
+.watchpage__container .title ul {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+
+.watchpage__container .title ul li {
+    padding: 0.7rem 0;
+    border-bottom: 1px solid var(--color-border);
+    font-size: 1rem;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    
+}
+
+.watchpage__container .title ul li span {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 0.8rem;
+    
+}
+
+.watchpage__container .title ul li span .ongoing__link {
+    padding: 0.07rem 0.4rem;
+    background-color: red;
+    border-radius: 5px;
+}
+
+.watchpage__container .title ul li span a:hover {
+    color: var(--color-primary);
+}
+
+
+/* ========= About Title CSS END======== */
+
+/* ========= Title Description ======== */
+.watchpage__container .title__description {
+margin-top: 4rem;
+}
+
+.watchpage__container .title__description h3 {
+    margin-left: 2rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.watchpage__container .title__description p {
+    font-size: 0.9rem;
+   margin: 1rem 2rem;
+    line-height: 1.5rem;
+}
+/* ========= Title Description END ======== */
+
+
+@media only screen and (max-width:1024px) {
+    .watchpage__container h1 {
+        display: flex;
+        flex-direction: column;
+        font-size: 1.8rem;
+        margin-left: 6rem;
+        margin-top: 2rem;
+        
+    } 
+
+    .watchpage__container .moreanime__banners {
+        display: flex;
+        flex-direction: column;
+    }
+    .watchpage__container .watchpage__header .header {
+        padding-left: 5rem;
+    }
+    
+     
+    .watchpage__container .title {
+        margin-left: 2rem;
+        display: grid;
+    grid-template-columns: 30% 65%;
+    grid-auto-flow: row;
+    width: 100%;
+    margin-top: 2rem;
+    }
+    .watchpage__container .title ul {
+        padding-left: 2rem;
+    }
+
+    .watchpage__container .title ul li {
+        margin-right: 1rem;
+    }
+
+    
+}
+
+@media only screen and (min-width:390px) and (max-width: 840px) {
+    
+    .watchpage__container .watchpage__header .title__name {
+        font-size: 1.2rem;
+    }
+    .watchpage__container .watchpage__header .title__name span {
+        font-size: 0.8rem;
+    }
+    .watchpage__container .title {
+        margin-left: 2rem;
+        display: grid;
+    grid-template-columns: 35% 60%;
+    width: 100%;
+    margin-top: 2rem;
+    }
+    .watchpage__container .title ul {
+        padding-left: 2rem;
+    }
+    .watchpage__container .title ul li {
+        font-size: 0.9rem;
+    }
+
+    .watchpage__container .title ul li span{
+        font-size: 0.7rem;
+    }
+}
+
+
+
+
+@media only screen and (min-width: 480px) and (max-width:655px) {
+    .watchpage__container .title {
+        margin-left: 1rem;
+        display: grid;
+    grid-template-columns: 45% 50%;
+    width: 100%;
+    margin-top: 2rem;
+    }
+
+
+    .watchpage__container .search {
+        margin-left: 1rem;
+    }
+
+    .watchpage__container .title ul {
+        padding-left: 1rem;
+    }
+
+    .watchpage__container .title ul li {
+        font-size: 0.8rem;
+    }
+
+    .watchpage__container .title ul li span{
+        font-size: 0.6rem;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    .watchpage__container .title {
+        margin-left: 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-flow: row;
+    width: 100%;
+    margin-top: 1rem;
+    }
+
+    .watchpage__container .title ul {
+        padding:4rem 0 0 1rem;
+    }
+
+    .watchpage__container .title ul li {
+        font-size: 0.9rem;
+    }
+
+    .watchpage__container .title ul li span{
+        font-size: 0.7rem;
+    }
+    .watchpage__container .title img {
+        
+        margin: 0 auto
+    }
+    .watchpage__container .watchpage__header .header .title__name {
+        align-self: center;
+        margin-left: 3rem;
+    }
+    .watchpage__container .watchpage__header .header .search {
+        margin-left: 1rem;
+    }
+}
+
+@media only screen and (min-width: 390px) and (max-width:607px) {
+    .watchpage__container .watchpage__header .header {
+        flex-direction: column-reverse;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .watchpage__container .watchpage__header {
+        justify-content: none;
+
+    }
+
+    .watchpage__container .watchpage__header .signin {
+        align-self: flex-start;
+        margin-right: 2rem;
+    }
+
+    .watchpage .nav__responsive.activated { 
+        right: 10;
+        top: 3%;
+        left: -190px;
+    }
+   .watchpage .nav__responsive {
+        top: 3%;
+        left: -200px;
+    }
+    .watchpage__container .star__rating > label:before {
+        font-size: 2.5rem;
+    
+}
+
+@media only screen and (min-width: 390px) and (max-width:440px) {
+    .watchpage__container .search input{
+        padding: 0.85rem 1.5rem;
+    }
+
+    .watchpage__container .search .search__icon {
+        left: 6%;
+        top: 15%;
+    }
+
+    .watchpage__container .search input::placeholder { 
+        padding-left: 1rem;
+    }
+
+    }
+    .watchpage__container .star__container {
+        margin-left: 2rem;
+    }
+    
+}
+

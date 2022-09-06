@@ -1,0 +1,10 @@
+.signin {
+    padding: 0.7rem 1rem;
+    background: gray;
+    border-radius: 50%;
+    margin: 1rem 1rem 0 0.5rem;
+ }
+a .signin__icon {
+     color: var(--color-primary);
+     
+ }

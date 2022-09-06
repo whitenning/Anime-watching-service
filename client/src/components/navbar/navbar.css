@@ -1,0 +1,197 @@
+.navbar__section {
+    height: 100%;
+    display: inline-block;
+    border-right: 5px solid var(--color-border);
+    background-color: var(--color-bg);
+}
+
+
+.navbar__section.actived {
+    display: none;
+}
+
+
+
+  ::-webkit-scrollbar-thumb {
+      background-color: var(--color-primary);
+      min-height: 10px;
+      border-radius: 2px;
+  }
+
+/* ============== Logo section =========== */
+
+.navbar__section .logo {
+    display: flex;
+    align-items: center;
+    margin: 1rem 0rem 0.5rem 0;
+    margin-left: 0.7rem;
+}
+
+.navbar__section .logo a {
+    color: var(--color-primary);
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.navbar__section .logo .logo__icon {
+   font-size: 1rem;
+   
+}
+/* ============== Logo section END =========== */
+
+/* ============== Navbar links section =========== */
+.main__nav-links {
+    display: block;
+}
+.main__nav-links li {
+    display: flex;
+    align-items: center;
+    
+    padding: 15px 26.5px;
+    
+    width: 100%;
+    
+    
+
+}
+.main__nav-links li a {
+    
+    color: gray;
+    display: flex;
+    font-size: 0.94rem;
+    align-items: center;
+}
+
+.main__nav-links li .nav__icon {
+   margin-right: 2.3rem;
+}
+
+.main__nav-links li a.active {
+    color: var(--color-primary);
+}
+
+
+    
+
+
+/* ============== Navbar links paddings and borders =========== */
+.main__nav-links .discover__padding {
+    padding-bottom: 24px;
+    border-bottom: 2px solid #282848;
+}
+
+.main__nav-links .recent__padding {
+    padding-top: 24px;
+}
+
+.main__nav-links .animelist__padding {
+    padding-bottom: 24px;
+    border-bottom: 2px solid #282848;
+}
+
+.main__nav-links .ongoing__padding {
+    padding-top: 24px;
+}
+
+.main__nav-links .liveaction__padding {
+    padding-bottom: 23px;
+    border-bottom: 2px solid #282848;
+}
+
+.main__nav-links .signin__padding {
+    padding-bottom: 23px;
+    border-bottom: 2px solid #282848;
+}
+/* ============== Navbar links paddings and borders END =========== */
+
+
+/* ============== Navbar links section END=========== */
+
+/* ============== Socials =========== */
+
+.socials {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid var(--color-border);
+}
+
+.discord {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    background: 
+    #535fee;
+    border-radius: 10px;
+    margin: 1.1rem 0.7rem;
+}
+
+.discord a {
+    margin-left: 0.3rem;
+    font-size: 0.7rem;
+}
+
+.discord .discord__icon {
+    margin-left: 0
+}
+
+.telegram {
+        display: flex;
+        align-items: center;
+        padding: 0.5rem 1rem;
+        background: 
+        #28a5e5;
+        border-radius: 10px;
+        margin: 0 0.7rem;
+}
+
+.telegram a {
+    margin-left: 0.3rem;
+    font-size: 0.7rem;
+}
+.telegram .telegram__icon {
+    font-size: 0.9rem;
+}
+/* ============== Socials END=========== */
+
+
+@media (max-width: 1024px) {
+    .main__nav-links li {
+        padding: 10px 26.5px;
+        width: 100%;     
+    }
+
+    .main__nav-links .discover__padding {
+        padding-bottom: 19px;
+        border-bottom: 2px solid #282848;
+    }
+    
+    .main__nav-links .recent__padding {
+        padding-top: 19px;
+    }
+    
+    .main__nav-links .animelist__padding {
+        padding-bottom: 19px;
+        border-bottom: 2px solid #282848;
+    }
+    
+    .main__nav-links .ongoing__padding {
+        padding-top: 19px;
+    }
+    
+    .main__nav-links .liveaction__padding {
+        padding-bottom: 18px;
+        border-bottom: 2px solid #282848;
+    }
+    
+    .main__nav-links .signin__padding {
+        padding-bottom: 18px;
+        border-bottom: 2px solid #282848;
+    }
+
+    .socials {
+        border-bottom: none;
+    }
+
+    
+}

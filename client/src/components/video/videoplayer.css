@@ -1,0 +1,265 @@
+  .video__section {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+
+  .content__name {
+    margin: 4rem 0 2rem 2rem;
+  }
+
+  .content__name span {
+   color: var(--color-primary);
+  }
+
+  .content__name .name {
+    color: gold;
+  }
+  .video__section .video {
+    width: 100%;
+    border-radius: 10px;
+   
+    background-color: var(--color-primary);
+  }
+
+  .video__section .video__cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    transition: 1s all ease-in-out;
+    background-color: var(--color-primary);
+    
+    border-radius: 10px;
+   
+    
+  }
+  .video__section .video__cover:hover {
+    box-shadow: 10px -1px 15px var(--color-primary);
+  }
+  
+  .video__section .video__cover.active {
+    opacity: 0;
+    z-index: -1;
+    
+  }
+ 
+  
+  .video__section .video__cover img{
+    object-fit: contain;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+    
+    
+  }
+  .video__section .video__cover .video__btn {
+    background: none;
+    border: none;
+    outline: none;
+    position: absolute;
+    top: 37%;
+    left: 45%;
+    z-index: 1;
+  
+    
+  }
+  .video__section .video__cover .play__btn {
+    background: none;
+    border-radius: 50%;
+    border: 2px solid var(--color-primary);
+    font-size: 6.5rem;
+    color: var(--color-primary);
+    padding: 1rem;
+    padding-left: 1.2rem;
+    cursor: pointer;
+  }
+
+  .video__section .video__cover .play__btn:hover {
+    background: var(--color-primary);
+    color: rgba(255,255,255, 0.9);
+  }
+
+.control__panels {
+  position: absolute;
+  padding: 0 0.5rem;
+  z-index: 1000;
+    top: 0%;
+    left: 0%;
+    
+}
+  .control__panel {
+    display: inline-block;
+    position: relative;
+    margin: 0.3rem;
+    flex-direction: row;
+    
+  }
+
+  .control__panel select {
+    background: rgb(135, 135, 182);
+    border: 2px solid var(--color-primary);
+    border-radius: 3px;
+    color: gold;
+    padding: 0.1rem 1.5rem 0.1rem 0.6rem;
+  }
+
+  .control__panel span {
+    display: block;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    background: none;
+    color: red;
+    top: 2px;
+    right: 1px;
+    position: absolute;
+    pointer-events: none;
+  }
+
+  .control__panel span::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    --size: 0.5em;
+    top: 35%;
+    left: 23%;
+    border-left: var(--size) solid transparent;
+    border-right: var(--size) solid transparent;
+    border-top: var(--size) solid var(--color-primary);
+  }
+
+  .watcher__status {
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    
+  }
+  .watcher__status button {
+    background: none;
+    margin: 1rem 0.3rem;
+    padding: 0.4rem 1rem;
+    border: 2px solid var(--color-primary);
+    border-radius: 4px;
+    color: white;
+    font-weight: 600;
+    font-size: 0.7rem;
+    transition: .4s ease;
+  }
+
+  .watcher__status button:hover {
+    color: var(--color-primary);
+  }
+
+  .next__btn {
+    background: rgb(135, 135, 182);
+    border: 2px solid var(--color-primary);
+    border-radius: 3px;
+    color: gold;
+    padding: 0.1rem .6rem;
+    padding-right: 1rem;
+    display: inline-block;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    position: relative;
+  }
+
+  .next__btn .next__span {
+    position: absolute;
+    display: block;
+    background: none;
+    width: 24px;
+    height: 20px;
+    top: 0;
+    right: 0;
+    
+  }
+
+  .next__btn .next__span::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    --size: 0.5em;
+    top: 20%;
+    left: 55%;
+    border-left: var(--size) solid var(--color-primary);
+    border-bottom: var(--size) solid transparent;
+    border-top: var(--size) solid transparent;
+  }
+
+  .player-wrapper > video {
+    position: relative;
+    padding-top: 56.25%;
+    border-radius: 10px;
+  }
+  
+  .react-player > .video {
+    position: absolute;
+    border-radius: 10px;
+  }
+  @media only screen and (min-width: 390px) and (max-width:607px) {
+    .control__panel select {
+      padding: 0.1rem 0;
+      padding-right: 0.6rem;
+    }
+    .video__section .video__cover .video__btn { 
+      top: 33%;
+      left: 42%;
+  }
+
+  .watcher__status {
+    margin-top: 2rem;
+  }
+}
+
+@media only screen and (min-width: 390px) and (max-width:495px) {
+ 
+.control__panel select {
+  border: 1px;
+  padding: 0.1rem 0;
+  padding-right: 0.2rem;
+  font-size: 0.65rem;
+}
+.video__section .video__cover .video__btn { 
+  top: 26%;
+  left: 39%;
+}
+.watcher__status {
+  margin-top: 2rem;
+}
+.watcher__status button {
+  background: none;
+  margin: 1rem 0.2rem;
+  padding: 0.05rem 0.5rem;
+  border: 1px solid var(--color-primary);
+}
+
+.control__panel span::after {
+  left: 33%;
+}
+
+.next__btn {
+  border: none;
+  padding: 0.1rem 0.1rem;
+  padding-right: 0.7rem;
+  font-size: 0.65rem;
+  text-transform: lowercase;
+}
+
+.next__btn .next__span {
+  right: -2px;
+}
+}
+
+  
+
+
+
+
+  

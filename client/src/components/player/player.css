@@ -1,0 +1,10 @@
+.player-wrapper > video {
+    position: relative;
+    padding-top: 56.25%;
+    border-radius: 10px;
+  }
+  
+  .react-player > .video {
+    position: absolute;
+    border-radius: 10px;
+  }

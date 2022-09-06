@@ -1,0 +1,149 @@
+.ongoing {
+    display: flex;
+    flex-direction: column;
+    margin: 4rem 3rem;
+    margin-bottom: 3.1rem;
+    
+}
+/*========= Ongoing Video ========*/
+.ongoing__banners {
+    display: flex;
+   overflow: hidden;
+   
+}
+
+
+.ongoing .ongoing__banner .ongoing__video{
+    position: relative;
+}
+
+.ongoing .ongoing__banner .ongoing__video .video{
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+    margin-top: 1.5rem;
+    opacity: 0.7;
+    transition: 0.4s ease-in-out;
+}
+
+.ongoing .ongoing__banner .ongoing__video .video:hover {
+    box-shadow: 0px 10px 20px var(--color-primary);  
+}
+
+.ongoing__video {
+    position: relative;
+}
+
+.ongoing__video .play__btn {
+    position: absolute;
+    text-align: center;
+    margin-left: auto;
+margin-right: auto;
+margin-top: auto;
+top: 43%;
+left: 0;
+right: 0;
+    font-size: 2rem;
+}
+
+
+
+.ongoing__video  {
+position: relative;
+}
+
+.ongoing__video a .duration {
+    font-size: 0.8rem;
+position: absolute;
+color: rgb(169, 166, 166);
+bottom: 10%;
+right: 12%;
+}
+
+
+/*========= Ongoing Video ========*/
+/*========= Ongoing Text ========*/
+
+.ongoing .ongoing__text {
+    display: flex;
+    justify-content: space-between;   
+    margin-top: 2rem;
+}
+
+.ongoing__text h4 {
+    font-size: 1.2rem;
+    margin-left: 3rem;
+
+}
+
+.ongoing__text .more__btn {
+    outline: none;
+    border: none;
+    color: gray;
+    display: flex;
+    align-items: center;
+    font-size: 0.8rem;
+    cursor: pointer;
+    margin-right: 2rem;
+}
+
+.more__btn .morebtn__icon {
+    margin-left: 1.3rem;
+}
+
+.ongoing__banner .ongoing__video-description a {
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.4rem;
+    transition: 0.4s ease;
+}
+
+.ongoing__banner .ongoing__video-description a:hover {
+    color: var(--color-primary);
+}
+
+.ongoing__banner .ongoing__video-description a span {
+    font-size: 0.7rem;
+    font-weight: 400;
+    color: gray;
+}
+
+/*========= Ongoing Text ========*/
+
+@media (max-width:1024px) {
+    .ongoing .ongoing__text {
+        margin-top: 0;
+    }
+
+    .ongoing__banners {
+        margin: 0;
+    }
+}
+
+.swiper-container {
+    width: 480px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .swiper-container {
+        width: 400px;
+      }
+      .ongoing {
+        display: flex;
+        flex-direction: column;
+        margin: 4rem auto;
+        margin-bottom: 3.1rem;
+    }
+
+    .ongoing .ongoing__banner .ongoing__video .video{
+        max-width: 100%;
+        height: auto;
+        border-radius: 20px;
+        margin-top: 0;
+        opacity: 0.7;
+        transition: 0.4s ease-in-out;
+    }
+  }

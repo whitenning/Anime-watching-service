@@ -1,0 +1,60 @@
+.moreanime__section {
+    width: 100%;
+    
+    padding: 0 3rem;
+    margin: 5rem 0;
+}
+
+.moreanime__tag {
+    text-align: center;
+    font-size: 1.7rem;
+    margin: 2rem 0;
+}
+
+.moreanime__banners {
+    display: flex;
+    justify-content: space-between;
+}
+.moreanime__banner {
+   width: 300px;
+   height: 200px;
+   border: 2px solid var(--color-border);
+   border-radius: 15px ;
+}
+.moreanime__banner .moreanime__poster {
+    position: relative;
+}
+
+.moreanime__poster img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 15px;
+    margin: 0 auto;
+    width: 100%;
+    opacity: 0.8;
+    mask-image: linear-gradient(to bottom, #000 40%, transparent 100%)  ;
+}
+
+.moreanime__poster .poster__label {
+    position: absolute;
+    z-index: 100;
+    right: 0;
+    padding: 0.5rem 1.5rem;
+    background: rgb(87, 87, 194);
+    bottom: 10%;
+    
+}
+
+.moreanime__banner .poster__description {
+    display: flex;
+    justify-content: center;
+    border-bottom-left-radius:13px;
+    border-bottom-right-radius: 13px;
+    border: 2px solid var(--color-border);
+    font-weight: 600;
+    padding: 0.2rem 0rem;
+    background-color: var(--color-border);
+}
+
+
