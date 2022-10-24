@@ -1,4 +1,19 @@
 # Anime-watching-service
 anime watching service in react, front-end, backend.
-This project build in purpose to build full stack responsive application.
-Here is a video prototype https://drive.google.com/file/d/1YnGkpq4oRO1EQiEWvpF-mDFY3FE-N-SY/view?usp=sharing
+This project build in purpose to build full stack responsive application as first project.
+PERN STACK 
+   Features I have:
+1. Frontend, watch page logic, and Reusable UI components
+2. Main relationship between the movies, seasons episodes, genres, studio, types
+3. User authorization with refreshtokens
+4. Commentary section with a CRUD in each episode 
+   
+    Features that I'm working:
+1. Relationship between episode, user and comment
+2. Frontend part for administration on client side 
+3. User settings
+4. Search engine for movies
+
+
+Here is a video prototype 
+https://drive.google.com/file/d/1h3s2FJQEwI8RAe5Fr88nM13ziXmsxZwL/view?usp=drivesdk
