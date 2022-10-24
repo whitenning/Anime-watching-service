@@ -8,6 +8,7 @@ PERN STACK: PostgreSQ, Express, React.js, Node.js
 2. Main relationship between the movies, seasons episodes, genres, studio, types
 3. User authorization with refreshtokens
 4. Commentary section with a CRUD in each episode 
+5. Fully responsive as well)
    
     Features that I'm working:
 1. Relationship between episode, user and comment
