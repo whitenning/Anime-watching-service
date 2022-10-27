@@ -20,4 +20,5 @@ PERN STACK: PostgreSQ, Express, React.js, Node.js
 
 
 Here is a video prototype 
-https://drive.google.com/file/d/1h3s2FJQEwI8RAe5Fr88nM13ziXmsxZwL/view?usp=drivesdk
+
+https://youtu.be/LAKm07vzMxA
