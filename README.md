@@ -1,7 +1,7 @@
 # Anime-watching-service
 anime watching service in react, front-end, backend.
 This project build in purpose to build full stack responsive application as first project.
-PERN STACK: PostgreSQ, Express, React.js, Node.js
+PERN STACK: PostgreSQL, Express, React.js, Node.js
 
    Features I have:
 1. Frontend, watch page logic, and Reusable UI components
