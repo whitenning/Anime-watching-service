@@ -21,4 +21,4 @@ PERN STACK: PostgreSQL, Express, React.js, Node.js
 
 Here is a video prototype 
 
-https://youtu.be/LAKm07vzMxA
+https://youtu.be/FBspMic7c2g
