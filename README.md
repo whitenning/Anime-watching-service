@@ -17,4 +17,4 @@ PERN STACK: PostgreSQL, Express, React.js, Node.js
 4.  View Count
 
  Here is a video prototype 
-https://drive.google.com/file/d/1K-krbl0oeVeccFzB6DckVqfC5mcsBdLa/view?usp=sharing
+https://vimeo.com/767009023
