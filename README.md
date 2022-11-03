@@ -11,14 +11,10 @@ PERN STACK: PostgreSQL, Express, React.js, Node.js
 5. Fully responsive
    
     Features that I'm working:
-1. Relationship between episode, user and comment
-2. Frontend part for administration on client side 
-3. User settings
-4. Search engine for movies
-5. User rating
-6. View Count
+1.  Frontend part for administration on client side 
+2.  User settings
+3.  Search engine for movies
+4.  View Count
 
-
-Here is a video prototype 
-
-https://youtu.be/HQNY5FENRl4
+ Here is a video prototype 
+https://drive.google.com/file/d/1K-krbl0oeVeccFzB6DckVqfC5mcsBdLa/view?usp=sharing
